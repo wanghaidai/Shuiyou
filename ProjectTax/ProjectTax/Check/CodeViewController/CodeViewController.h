@@ -11,4 +11,6 @@
 @interface CodeViewController : UIViewController
 - (IBAction)goBack2:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UIButton *openButton;
+
 @end
