@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56C639371A4BAAFA00952C69 /* ForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C639351A4BAAFA00952C69 /* ForecastCell.m */; };
+		56C639501A4BDEA000952C69 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6394F1A4BDEA000952C69 /* AVFoundation.framework */; };
+		56C639521A4BDEBB00952C69 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C639511A4BDEBB00952C69 /* CoreVideo.framework */; };
+		56C639541A4BDEDA00952C69 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C639531A4BDEDA00952C69 /* CoreMedia.framework */; };
+		56C639561A4BDEE700952C69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C639551A4BDEE700952C69 /* QuartzCore.framework */; };
+		56C639581A4BDEFC00952C69 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C639571A4BDEFC00952C69 /* libiconv.dylib */; };
+		56CE8E5E1A49471700AF38B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E5D1A49471700AF38B3 /* Foundation.framework */; };
+		56CE8E601A49471700AF38B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E5F1A49471700AF38B3 /* CoreGraphics.framework */; };
+		56CE8E621A49471700AF38B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E611A49471700AF38B3 /* UIKit.framework */; };
+		56CE8E681A49471700AF38B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E661A49471700AF38B3 /* InfoPlist.strings */; };
+		56CE8E6A1A49471700AF38B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E691A49471700AF38B3 /* main.m */; };
+		56CE8E6E1A49471700AF38B3 /* TAXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E6D1A49471700AF38B3 /* TAXAppDelegate.m */; };
+		56CE8E711A49471700AF38B3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E6F1A49471700AF38B3 /* Main_iPhone.storyboard */; };
+		56CE8E741A49471700AF38B3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E721A49471700AF38B3 /* Main_iPad.storyboard */; };
+		56CE8E771A49471700AF38B3 /* TAXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E761A49471700AF38B3 /* TAXViewController.m */; };
+		56CE8E791A49471700AF38B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E781A49471700AF38B3 /* Images.xcassets */; };
+		56CE8E801A49471700AF38B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E7F1A49471700AF38B3 /* XCTest.framework */; };
+		56CE8E811A49471700AF38B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E5D1A49471700AF38B3 /* Foundation.framework */; };
+		56CE8E821A49471700AF38B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E611A49471700AF38B3 /* UIKit.framework */; };
+		56CE8E8A1A49471700AF38B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E881A49471700AF38B3 /* InfoPlist.strings */; };
+		56CE8E8C1A49471700AF38B3 /* ProjectTaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E8B1A49471700AF38B3 /* ProjectTaxTests.m */; };
+		56CE8E971A494BDA00AF38B3 /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E961A494BDA00AF38B3 /* CheckViewController.m */; };
+		56CE8E9E1A49590000AF38B3 /* ListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E9C1A49590000AF38B3 /* ListingViewController.m */; };
+		56CE8E9F1A49590000AF38B3 /* ListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E9D1A49590000AF38B3 /* ListingViewController.xib */; };
+		56CE8EA31A49663700AF38B3 /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8EA21A49663700AF38B3 /* MJPopupBackgroundView.m */; };
+		56CE8EA61A49665D00AF38B3 /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8EA51A49665D00AF38B3 /* UIViewController+MJPopupViewController.m */; };
+		56CE8EAB1A49687500AF38B3 /* ManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8EA91A49687500AF38B3 /* ManualViewController.m */; };
+		56D301981A4A552600DC9DC0 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D301971A4A552600DC9DC0 /* CodeViewController.m */; };
+		56D301A01A4AB49500DC9DC0 /* MyTaxListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D3019F1A4AB49500DC9DC0 /* MyTaxListingViewController.m */; };
+		56D301A21A4ABA7900DC9DC0 /* IndexHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D301A11A4ABA7900DC9DC0 /* IndexHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56CE8E831A49471700AF38B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56CE8E521A49471700AF38B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56CE8E591A49471700AF38B3;
+			remoteInfo = ProjectTax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56C639341A4BAAFA00952C69 /* ForecastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastCell.h; sourceTree = "<group>"; };
+		56C639351A4BAAFA00952C69 /* ForecastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastCell.m; sourceTree = "<group>"; };
+		56C6393A1A4BDE0100952C69 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		56C6393B1A4BDE0100952C69 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		56C6393C1A4BDE0100952C69 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		56C6393D1A4BDE0100952C69 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		56C6393E1A4BDE0100952C69 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		56C6393F1A4BDE0100952C69 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		56C639401A4BDE0100952C69 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		56C639411A4BDE0100952C69 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		56C639421A4BDE0100952C69 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		56C639441A4BDE3100952C69 /* zbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		56C639451A4BDE3100952C69 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		56C639461A4BDE3100952C69 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		56C639471A4BDE3100952C69 /* ZBarHelpController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		56C639481A4BDE3100952C69 /* ZBarImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		56C639491A4BDE3100952C69 /* ZBarImageScanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		56C6394A1A4BDE3100952C69 /* ZBarReaderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		56C6394B1A4BDE3100952C69 /* ZBarReaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		56C6394C1A4BDE3100952C69 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		56C6394D1A4BDE3100952C69 /* ZBarSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		56C6394E1A4BDE3100952C69 /* ZBarSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		56C6394F1A4BDEA000952C69 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		56C639511A4BDEBB00952C69 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		56C639531A4BDEDA00952C69 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		56C639551A4BDEE700952C69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		56C639571A4BDEFC00952C69 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		56CE8E5A1A49471700AF38B3 /* ProjectTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectTax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CE8E5D1A49471700AF38B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56CE8E5F1A49471700AF38B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56CE8E611A49471700AF38B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56CE8E651A49471700AF38B3 /* ProjectTax-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectTax-Info.plist"; sourceTree = "<group>"; };
+		56CE8E671A49471700AF38B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56CE8E691A49471700AF38B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56CE8E6B1A49471700AF38B3 /* ProjectTax-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectTax-Prefix.pch"; sourceTree = "<group>"; };
+		56CE8E6C1A49471700AF38B3 /* TAXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAXAppDelegate.h; sourceTree = "<group>"; };
+		56CE8E6D1A49471700AF38B3 /* TAXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAXAppDelegate.m; sourceTree = "<group>"; };
+		56CE8E701A49471700AF38B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		56CE8E731A49471700AF38B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		56CE8E751A49471700AF38B3 /* TAXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAXViewController.h; sourceTree = "<group>"; };
+		56CE8E761A49471700AF38B3 /* TAXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAXViewController.m; sourceTree = "<group>"; };
+		56CE8E781A49471700AF38B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56CE8E7E1A49471700AF38B3 /* ProjectTaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CE8E7F1A49471700AF38B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56CE8E871A49471700AF38B3 /* ProjectTaxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectTaxTests-Info.plist"; sourceTree = "<group>"; };
+		56CE8E891A49471700AF38B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56CE8E8B1A49471700AF38B3 /* ProjectTaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTaxTests.m; sourceTree = "<group>"; };
+		56CE8E951A494BDA00AF38B3 /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
+		56CE8E961A494BDA00AF38B3 /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
+		56CE8E9B1A49590000AF38B3 /* ListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListingViewController.h; sourceTree = "<group>"; };
+		56CE8E9C1A49590000AF38B3 /* ListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListingViewController.m; sourceTree = "<group>"; };
+		56CE8E9D1A49590000AF38B3 /* ListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListingViewController.xib; sourceTree = "<group>"; };
+		56CE8EA11A49663700AF38B3 /* MJPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPopupBackgroundView.h; sourceTree = "<group>"; };
+		56CE8EA21A49663700AF38B3 /* MJPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPopupBackgroundView.m; sourceTree = "<group>"; };
+		56CE8EA41A49665D00AF38B3 /* UIViewController+MJPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MJPopupViewController.h"; sourceTree = "<group>"; };
+		56CE8EA51A49665D00AF38B3 /* UIViewController+MJPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MJPopupViewController.m"; sourceTree = "<group>"; };
+		56CE8EA81A49687500AF38B3 /* ManualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualViewController.h; sourceTree = "<group>"; };
+		56CE8EA91A49687500AF38B3 /* ManualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualViewController.m; sourceTree = "<group>"; };
+		56D301961A4A552600DC9DC0 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		56D301971A4A552600DC9DC0 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		56D3019E1A4AB49500DC9DC0 /* MyTaxListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTaxListingViewController.h; sourceTree = "<group>"; };
+		56D3019F1A4AB49500DC9DC0 /* MyTaxListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTaxListingViewController.m; sourceTree = "<group>"; };
+		56D301A11A4ABA7900DC9DC0 /* IndexHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexHeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56CE8E571A49471700AF38B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C639581A4BDEFC00952C69 /* libiconv.dylib in Frameworks */,
+				56C639561A4BDEE700952C69 /* QuartzCore.framework in Frameworks */,
+				56C639541A4BDEDA00952C69 /* CoreMedia.framework in Frameworks */,
+				56C639521A4BDEBB00952C69 /* CoreVideo.framework in Frameworks */,
+				56C639501A4BDEA000952C69 /* AVFoundation.framework in Frameworks */,
+				56CE8E601A49471700AF38B3 /* CoreGraphics.framework in Frameworks */,
+				56CE8E621A49471700AF38B3 /* UIKit.framework in Frameworks */,
+				56CE8E5E1A49471700AF38B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CE8E7B1A49471700AF38B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CE8E801A49471700AF38B3 /* XCTest.framework in Frameworks */,
+				56CE8E821A49471700AF38B3 /* UIKit.framework in Frameworks */,
+				56CE8E811A49471700AF38B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561EB8BB1A4BEA8300D13B79 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		561EB8BC1A4BEA9E00D13B79 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group1";
+			sourceTree = "<group>";
+		};
+		5678295D1A4BF3AC00FDB548 /* 111234 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 111234;
+			sourceTree = "<group>";
+		};
+		56C639391A4BDDEE00952C69 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				56C6393A1A4BDE0100952C69 /* Decoder.h */,
+				56C6393B1A4BDE0100952C69 /* Exception.h */,
+				56C6393C1A4BDE0100952C69 /* Image.h */,
+				56C6393D1A4BDE0100952C69 /* ImageScanner.h */,
+				56C6393E1A4BDE0100952C69 /* Processor.h */,
+				56C6393F1A4BDE0100952C69 /* Scanner.h */,
+				56C639401A4BDE0100952C69 /* Symbol.h */,
+				56C639411A4BDE0100952C69 /* Video.h */,
+				56C639421A4BDE0100952C69 /* Window.h */,
+			);
+			name = zbar;
+			sourceTree = "<group>";
+		};
+		56C639431A4BDE1500952C69 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				56C639391A4BDDEE00952C69 /* zbar */,
+				56C639441A4BDE3100952C69 /* zbar.h */,
+				56C639451A4BDE3100952C69 /* ZBarCameraSimulator.h */,
+				56C639461A4BDE3100952C69 /* ZBarCaptureReader.h */,
+				56C639471A4BDE3100952C69 /* ZBarHelpController.h */,
+				56C639481A4BDE3100952C69 /* ZBarImage.h */,
+				56C639491A4BDE3100952C69 /* ZBarImageScanner.h */,
+				56C6394A1A4BDE3100952C69 /* ZBarReaderController.h */,
+				56C6394B1A4BDE3100952C69 /* ZBarReaderView.h */,
+				56C6394C1A4BDE3100952C69 /* ZBarReaderViewController.h */,
+				56C6394D1A4BDE3100952C69 /* ZBarSDK.h */,
+				56C6394E1A4BDE3100952C69 /* ZBarSymbol.h */,
+			);
+			name = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		56CE8E511A49471700AF38B3 = {
+			isa = PBXGroup;
+			children = (
+				56CE8E5C1A49471700AF38B3 /* Frameworks */,
+				56CE8E5B1A49471700AF38B3 /* Products */,
+				56CE8E631A49471700AF38B3 /* ProjectTax */,
+				56CE8E851A49471700AF38B3 /* ProjectTaxTests */,
+			);
+			sourceTree = "<group>";
+		};
+		56CE8E5B1A49471700AF38B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8E5A1A49471700AF38B3 /* ProjectTax.app */,
+				56CE8E7E1A49471700AF38B3 /* ProjectTaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56CE8E5C1A49471700AF38B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C639571A4BDEFC00952C69 /* libiconv.dylib */,
+				56C639551A4BDEE700952C69 /* QuartzCore.framework */,
+				56C639531A4BDEDA00952C69 /* CoreMedia.framework */,
+				56C639511A4BDEBB00952C69 /* CoreVideo.framework */,
+				56C6394F1A4BDEA000952C69 /* AVFoundation.framework */,
+				56CE8E5D1A49471700AF38B3 /* Foundation.framework */,
+				56CE8E5F1A49471700AF38B3 /* CoreGraphics.framework */,
+				56CE8E611A49471700AF38B3 /* UIKit.framework */,
+				56CE8E7F1A49471700AF38B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56CE8E631A49471700AF38B3 /* ProjectTax */ = {
+			isa = PBXGroup;
+			children = (
+				5678295D1A4BF3AC00FDB548 /* 111234 */,
+				561EB8BC1A4BEA9E00D13B79 /* New Group1 */,
+				561EB8BB1A4BEA8300D13B79 /* New Group */,
+				56D3019D1A4AB43100DC9DC0 /* MyTaxListing */,
+				56CE8EA01A49662000AF38B3 /* Lib */,
+				56CE8E991A494BE700AF38B3 /* Check */,
+				56CE8E6C1A49471700AF38B3 /* TAXAppDelegate.h */,
+				56CE8E6D1A49471700AF38B3 /* TAXAppDelegate.m */,
+				56CE8E6F1A49471700AF38B3 /* Main_iPhone.storyboard */,
+				56CE8E721A49471700AF38B3 /* Main_iPad.storyboard */,
+				56CE8E751A49471700AF38B3 /* TAXViewController.h */,
+				56CE8E761A49471700AF38B3 /* TAXViewController.m */,
+				56CE8E781A49471700AF38B3 /* Images.xcassets */,
+				56CE8E641A49471700AF38B3 /* Supporting Files */,
+			);
+			path = ProjectTax;
+			sourceTree = "<group>";
+		};
+		56CE8E641A49471700AF38B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8E651A49471700AF38B3 /* ProjectTax-Info.plist */,
+				56CE8E661A49471700AF38B3 /* InfoPlist.strings */,
+				56CE8E691A49471700AF38B3 /* main.m */,
+				56CE8E6B1A49471700AF38B3 /* ProjectTax-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56CE8E851A49471700AF38B3 /* ProjectTaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8E8B1A49471700AF38B3 /* ProjectTaxTests.m */,
+				56CE8E861A49471700AF38B3 /* Supporting Files */,
+			);
+			path = ProjectTaxTests;
+			sourceTree = "<group>";
+		};
+		56CE8E861A49471700AF38B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8E871A49471700AF38B3 /* ProjectTaxTests-Info.plist */,
+				56CE8E881A49471700AF38B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56CE8E991A494BE700AF38B3 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8E9A1A4958DA00AF38B3 /* Listing */,
+				56CE8E951A494BDA00AF38B3 /* CheckViewController.h */,
+				56CE8E961A494BDA00AF38B3 /* CheckViewController.m */,
+				56CE8EA81A49687500AF38B3 /* ManualViewController.h */,
+				56CE8EA91A49687500AF38B3 /* ManualViewController.m */,
+				56D301961A4A552600DC9DC0 /* CodeViewController.h */,
+				56D301971A4A552600DC9DC0 /* CodeViewController.m */,
+			);
+			name = Check;
+			sourceTree = "<group>";
+		};
+		56CE8E9A1A4958DA00AF38B3 /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8E9B1A49590000AF38B3 /* ListingViewController.h */,
+				56CE8E9C1A49590000AF38B3 /* ListingViewController.m */,
+				56CE8E9D1A49590000AF38B3 /* ListingViewController.xib */,
+			);
+			name = Listing;
+			sourceTree = "<group>";
+		};
+		56CE8EA01A49662000AF38B3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				56C639431A4BDE1500952C69 /* ZBarSDK */,
+				56CE8EA71A49676600AF38B3 /* PopShow */,
+			);
+			name = Lib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		56CE8EA71A49676600AF38B3 /* PopShow */ = {
+			isa = PBXGroup;
+			children = (
+				56CE8EA11A49663700AF38B3 /* MJPopupBackgroundView.h */,
+				56CE8EA21A49663700AF38B3 /* MJPopupBackgroundView.m */,
+				56CE8EA41A49665D00AF38B3 /* UIViewController+MJPopupViewController.h */,
+				56CE8EA51A49665D00AF38B3 /* UIViewController+MJPopupViewController.m */,
+			);
+			name = PopShow;
+			sourceTree = "<group>";
+		};
+		56D3019D1A4AB43100DC9DC0 /* MyTaxListing */ = {
+			isa = PBXGroup;
+			children = (
+				56D301A31A4ABF4100DC9DC0 /* Cell */,
+				56D3019E1A4AB49500DC9DC0 /* MyTaxListingViewController.h */,
+				56D3019F1A4AB49500DC9DC0 /* MyTaxListingViewController.m */,
+				56D301A11A4ABA7900DC9DC0 /* IndexHeaderView.xib */,
+			);
+			name = MyTaxListing;
+			sourceTree = "<group>";
+		};
+		56D301A31A4ABF4100DC9DC0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				56C639341A4BAAFA00952C69 /* ForecastCell.h */,
+				56C639351A4BAAFA00952C69 /* ForecastCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56CE8E591A49471700AF38B3 /* ProjectTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CE8E8F1A49471700AF38B3 /* Build configuration list for PBXNativeTarget "ProjectTax" */;
+			buildPhases = (
+				56CE8E561A49471700AF38B3 /* Sources */,
+				56CE8E571A49471700AF38B3 /* Frameworks */,
+				56CE8E581A49471700AF38B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectTax;
+			productName = ProjectTax;
+			productReference = 56CE8E5A1A49471700AF38B3 /* ProjectTax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56CE8E7D1A49471700AF38B3 /* ProjectTaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CE8E921A49471700AF38B3 /* Build configuration list for PBXNativeTarget "ProjectTaxTests" */;
+			buildPhases = (
+				56CE8E7A1A49471700AF38B3 /* Sources */,
+				56CE8E7B1A49471700AF38B3 /* Frameworks */,
+				56CE8E7C1A49471700AF38B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56CE8E841A49471700AF38B3 /* PBXTargetDependency */,
+			);
+			name = ProjectTaxTests;
+			productName = ProjectTaxTests;
+			productReference = 56CE8E7E1A49471700AF38B3 /* ProjectTaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56CE8E521A49471700AF38B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TAX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tingtingwang;
+				TargetAttributes = {
+					56CE8E7D1A49471700AF38B3 = {
+						TestTargetID = 56CE8E591A49471700AF38B3;
+					};
+				};
+			};
+			buildConfigurationList = 56CE8E551A49471700AF38B3 /* Build configuration list for PBXProject "ProjectTax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56CE8E511A49471700AF38B3;
+			productRefGroup = 56CE8E5B1A49471700AF38B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56CE8E591A49471700AF38B3 /* ProjectTax */,
+				56CE8E7D1A49471700AF38B3 /* ProjectTaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56CE8E581A49471700AF38B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D301A21A4ABA7900DC9DC0 /* IndexHeaderView.xib in Resources */,
+				56CE8E741A49471700AF38B3 /* Main_iPad.storyboard in Resources */,
+				56CE8E9F1A49590000AF38B3 /* ListingViewController.xib in Resources */,
+				56CE8E791A49471700AF38B3 /* Images.xcassets in Resources */,
+				56CE8E711A49471700AF38B3 /* Main_iPhone.storyboard in Resources */,
+				56CE8E681A49471700AF38B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CE8E7C1A49471700AF38B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CE8E8A1A49471700AF38B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56CE8E561A49471700AF38B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CE8E6E1A49471700AF38B3 /* TAXAppDelegate.m in Sources */,
+				56CE8E971A494BDA00AF38B3 /* CheckViewController.m in Sources */,
+				56CE8EA31A49663700AF38B3 /* MJPopupBackgroundView.m in Sources */,
+				56CE8EA61A49665D00AF38B3 /* UIViewController+MJPopupViewController.m in Sources */,
+				56D301981A4A552600DC9DC0 /* CodeViewController.m in Sources */,
+				56CE8E6A1A49471700AF38B3 /* main.m in Sources */,
+				56C639371A4BAAFA00952C69 /* ForecastCell.m in Sources */,
+				56CE8E771A49471700AF38B3 /* TAXViewController.m in Sources */,
+				56D301A01A4AB49500DC9DC0 /* MyTaxListingViewController.m in Sources */,
+				56CE8E9E1A49590000AF38B3 /* ListingViewController.m in Sources */,
+				56CE8EAB1A49687500AF38B3 /* ManualViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56CE8E7A1A49471700AF38B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CE8E8C1A49471700AF38B3 /* ProjectTaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56CE8E841A49471700AF38B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56CE8E591A49471700AF38B3 /* ProjectTax */;
+			targetProxy = 56CE8E831A49471700AF38B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56CE8E661A49471700AF38B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CE8E671A49471700AF38B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56CE8E6F1A49471700AF38B3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CE8E701A49471700AF38B3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		56CE8E721A49471700AF38B3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CE8E731A49471700AF38B3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		56CE8E881A49471700AF38B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56CE8E891A49471700AF38B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56CE8E8D1A49471700AF38B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56CE8E8E1A49471700AF38B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56CE8E901A49471700AF38B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectTax/ProjectTax-Prefix.pch";
+				INFOPLIST_FILE = "ProjectTax/ProjectTax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56CE8E911A49471700AF38B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectTax/ProjectTax-Prefix.pch";
+				INFOPLIST_FILE = "ProjectTax/ProjectTax-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56CE8E931A49471700AF38B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProjectTax.app/ProjectTax";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectTax/ProjectTax-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProjectTaxTests/ProjectTaxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56CE8E941A49471700AF38B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProjectTax.app/ProjectTax";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProjectTax/ProjectTax-Prefix.pch";
+				INFOPLIST_FILE = "ProjectTaxTests/ProjectTaxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56CE8E551A49471700AF38B3 /* Build configuration list for PBXProject "ProjectTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CE8E8D1A49471700AF38B3 /* Debug */,
+				56CE8E8E1A49471700AF38B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CE8E8F1A49471700AF38B3 /* Build configuration list for PBXNativeTarget "ProjectTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CE8E901A49471700AF38B3 /* Debug */,
+				56CE8E911A49471700AF38B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CE8E921A49471700AF38B3 /* Build configuration list for PBXNativeTarget "ProjectTaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56CE8E931A49471700AF38B3 /* Debug */,
+				56CE8E941A49471700AF38B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56CE8E521A49471700AF38B3 /* Project object */;
+}
