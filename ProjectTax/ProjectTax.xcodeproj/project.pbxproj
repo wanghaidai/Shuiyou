@@ -42,6 +42,17 @@
 		56CE8E821A49471700AF38B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE8E611A49471700AF38B3 /* UIKit.framework */; };
 		56CE8E8A1A49471700AF38B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56CE8E881A49471700AF38B3 /* InfoPlist.strings */; };
 		56CE8E8C1A49471700AF38B3 /* ProjectTaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE8E8B1A49471700AF38B3 /* ProjectTaxTests.m */; };
+		E71FC2321A4D3731002AA0F3 /* EmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2231A4D3731002AA0F3 /* EmailVC.m */; };
+		E71FC2331A4D3731002AA0F3 /* IDNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2261A4D3731002AA0F3 /* IDNumberVC.m */; };
+		E71FC2341A4D3731002AA0F3 /* IDTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2291A4D3731002AA0F3 /* IDTypeVC.m */; };
+		E71FC2351A4D3731002AA0F3 /* PersonalInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC22B1A4D3731002AA0F3 /* PersonalInformationVC.m */; };
+		E71FC2361A4D3731002AA0F3 /* PhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC22E1A4D3731002AA0F3 /* PhoneVC.m */; };
+		E71FC2371A4D3731002AA0F3 /* RealNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2311A4D3731002AA0F3 /* RealNameVC.m */; };
+		E71FC2481A4D38A5002AA0F3 /* AcoountSecurityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC23C1A4D38A5002AA0F3 /* AcoountSecurityVC.m */; };
+		E71FC2491A4D38A5002AA0F3 /* CancellationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC23F1A4D38A5002AA0F3 /* CancellationVC.m */; };
+		E71FC24A1A4D38A5002AA0F3 /* PwdModifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2421A4D38A5002AA0F3 /* PwdModifyVC.m */; };
+		E71FC24B1A4D38A5002AA0F3 /* EmailSubscribeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2451A4D38A5002AA0F3 /* EmailSubscribeVC.m */; };
+		E71FC24C1A4D38A5002AA0F3 /* cfm.png in Resources */ = {isa = PBXBuildFile; fileRef = E71FC2471A4D38A5002AA0F3 /* cfm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +134,27 @@
 		56CE8E871A49471700AF38B3 /* ProjectTaxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectTaxTests-Info.plist"; sourceTree = "<group>"; };
 		56CE8E891A49471700AF38B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56CE8E8B1A49471700AF38B3 /* ProjectTaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTaxTests.m; sourceTree = "<group>"; };
+		E71FC2221A4D3731002AA0F3 /* EmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailVC.h; sourceTree = "<group>"; };
+		E71FC2231A4D3731002AA0F3 /* EmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailVC.m; sourceTree = "<group>"; };
+		E71FC2251A4D3731002AA0F3 /* IDNumberVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDNumberVC.h; sourceTree = "<group>"; };
+		E71FC2261A4D3731002AA0F3 /* IDNumberVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDNumberVC.m; sourceTree = "<group>"; };
+		E71FC2281A4D3731002AA0F3 /* IDTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTypeVC.h; sourceTree = "<group>"; };
+		E71FC2291A4D3731002AA0F3 /* IDTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTypeVC.m; sourceTree = "<group>"; };
+		E71FC22A1A4D3731002AA0F3 /* PersonalInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformationVC.h; sourceTree = "<group>"; };
+		E71FC22B1A4D3731002AA0F3 /* PersonalInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationVC.m; sourceTree = "<group>"; };
+		E71FC22D1A4D3731002AA0F3 /* PhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneVC.h; sourceTree = "<group>"; };
+		E71FC22E1A4D3731002AA0F3 /* PhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneVC.m; sourceTree = "<group>"; };
+		E71FC2301A4D3731002AA0F3 /* RealNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameVC.h; sourceTree = "<group>"; };
+		E71FC2311A4D3731002AA0F3 /* RealNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameVC.m; sourceTree = "<group>"; };
+		E71FC23B1A4D38A5002AA0F3 /* AcoountSecurityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcoountSecurityVC.h; sourceTree = "<group>"; };
+		E71FC23C1A4D38A5002AA0F3 /* AcoountSecurityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcoountSecurityVC.m; sourceTree = "<group>"; };
+		E71FC23E1A4D38A5002AA0F3 /* CancellationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancellationVC.h; sourceTree = "<group>"; };
+		E71FC23F1A4D38A5002AA0F3 /* CancellationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancellationVC.m; sourceTree = "<group>"; };
+		E71FC2411A4D38A5002AA0F3 /* PwdModifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdModifyVC.h; sourceTree = "<group>"; };
+		E71FC2421A4D38A5002AA0F3 /* PwdModifyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdModifyVC.m; sourceTree = "<group>"; };
+		E71FC2441A4D38A5002AA0F3 /* EmailSubscribeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailSubscribeVC.h; sourceTree = "<group>"; };
+		E71FC2451A4D38A5002AA0F3 /* EmailSubscribeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailSubscribeVC.m; sourceTree = "<group>"; };
+		E71FC2471A4D38A5002AA0F3 /* cfm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cfm.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +369,10 @@
 		56CE8E631A49471700AF38B3 /* ProjectTax */ = {
 			isa = PBXGroup;
 			children = (
+				E71FC23A1A4D38A5002AA0F3 /* AccountSecurityVC */,
+				E71FC2431A4D38A5002AA0F3 /* EmailSubscribeVC */,
+				E71FC2461A4D38A5002AA0F3 /* Image */,
+				E71FC2201A4D3731002AA0F3 /* PersonalInformationVC */,
 				56782A081A4C05BF00FDB548 /* TaxListing */,
 				567829F61A4C059A00FDB548 /* Check */,
 				567829821A4C00C600FDB548 /* Lib */,
@@ -379,6 +415,111 @@
 				56CE8E881A49471700AF38B3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E71FC2201A4D3731002AA0F3 /* PersonalInformationVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2211A4D3731002AA0F3 /* EmailVC */,
+				E71FC2241A4D3731002AA0F3 /* IDNumberVC */,
+				E71FC2271A4D3731002AA0F3 /* IDTypeVC */,
+				E71FC22A1A4D3731002AA0F3 /* PersonalInformationVC.h */,
+				E71FC22B1A4D3731002AA0F3 /* PersonalInformationVC.m */,
+				E71FC22C1A4D3731002AA0F3 /* PhoneVC */,
+				E71FC22F1A4D3731002AA0F3 /* RealNameVC */,
+			);
+			path = PersonalInformationVC;
+			sourceTree = "<group>";
+		};
+		E71FC2211A4D3731002AA0F3 /* EmailVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2221A4D3731002AA0F3 /* EmailVC.h */,
+				E71FC2231A4D3731002AA0F3 /* EmailVC.m */,
+			);
+			path = EmailVC;
+			sourceTree = "<group>";
+		};
+		E71FC2241A4D3731002AA0F3 /* IDNumberVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2251A4D3731002AA0F3 /* IDNumberVC.h */,
+				E71FC2261A4D3731002AA0F3 /* IDNumberVC.m */,
+			);
+			path = IDNumberVC;
+			sourceTree = "<group>";
+		};
+		E71FC2271A4D3731002AA0F3 /* IDTypeVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2281A4D3731002AA0F3 /* IDTypeVC.h */,
+				E71FC2291A4D3731002AA0F3 /* IDTypeVC.m */,
+			);
+			path = IDTypeVC;
+			sourceTree = "<group>";
+		};
+		E71FC22C1A4D3731002AA0F3 /* PhoneVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC22D1A4D3731002AA0F3 /* PhoneVC.h */,
+				E71FC22E1A4D3731002AA0F3 /* PhoneVC.m */,
+			);
+			path = PhoneVC;
+			sourceTree = "<group>";
+		};
+		E71FC22F1A4D3731002AA0F3 /* RealNameVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2301A4D3731002AA0F3 /* RealNameVC.h */,
+				E71FC2311A4D3731002AA0F3 /* RealNameVC.m */,
+			);
+			path = RealNameVC;
+			sourceTree = "<group>";
+		};
+		E71FC23A1A4D38A5002AA0F3 /* AccountSecurityVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC23B1A4D38A5002AA0F3 /* AcoountSecurityVC.h */,
+				E71FC23C1A4D38A5002AA0F3 /* AcoountSecurityVC.m */,
+				E71FC23D1A4D38A5002AA0F3 /* CancellationVC */,
+				E71FC2401A4D38A5002AA0F3 /* PwdModifyVC */,
+			);
+			path = AccountSecurityVC;
+			sourceTree = "<group>";
+		};
+		E71FC23D1A4D38A5002AA0F3 /* CancellationVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC23E1A4D38A5002AA0F3 /* CancellationVC.h */,
+				E71FC23F1A4D38A5002AA0F3 /* CancellationVC.m */,
+			);
+			path = CancellationVC;
+			sourceTree = "<group>";
+		};
+		E71FC2401A4D38A5002AA0F3 /* PwdModifyVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2411A4D38A5002AA0F3 /* PwdModifyVC.h */,
+				E71FC2421A4D38A5002AA0F3 /* PwdModifyVC.m */,
+			);
+			path = PwdModifyVC;
+			sourceTree = "<group>";
+		};
+		E71FC2431A4D38A5002AA0F3 /* EmailSubscribeVC */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2441A4D38A5002AA0F3 /* EmailSubscribeVC.h */,
+				E71FC2451A4D38A5002AA0F3 /* EmailSubscribeVC.m */,
+			);
+			path = EmailSubscribeVC;
+			sourceTree = "<group>";
+		};
+		E71FC2461A4D38A5002AA0F3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E71FC2471A4D38A5002AA0F3 /* cfm.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,6 +599,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71FC24C1A4D38A5002AA0F3 /* cfm.png in Resources */,
 				56782A061A4C059A00FDB548 /* ListingViewController.xib in Resources */,
 				56CE8E741A49471700AF38B3 /* Main_iPad.storyboard in Resources */,
 				567829EB1A4C01F900FDB548 /* zbar-back.png in Resources */,
@@ -486,17 +628,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71FC24B1A4D38A5002AA0F3 /* EmailSubscribeVC.m in Sources */,
+				E71FC2481A4D38A5002AA0F3 /* AcoountSecurityVC.m in Sources */,
 				56782A051A4C059A00FDB548 /* ListingViewController.m in Sources */,
+				E71FC2331A4D3731002AA0F3 /* IDNumberVC.m in Sources */,
 				567829F51A4C03DB00FDB548 /* UIViewController+MJPopupViewController.m in Sources */,
+				E71FC2371A4D3731002AA0F3 /* RealNameVC.m in Sources */,
+				E71FC2351A4D3731002AA0F3 /* PersonalInformationVC.m in Sources */,
 				56782A041A4C059A00FDB548 /* CodeViewController.m in Sources */,
+				E71FC2491A4D38A5002AA0F3 /* CancellationVC.m in Sources */,
+				E71FC24A1A4D38A5002AA0F3 /* PwdModifyVC.m in Sources */,
 				56CE8E6E1A49471700AF38B3 /* TAXAppDelegate.m in Sources */,
 				56782A0F1A4C05BF00FDB548 /* ForecastCell.m in Sources */,
+				E71FC2361A4D3731002AA0F3 /* PhoneVC.m in Sources */,
 				56CE8E6A1A49471700AF38B3 /* main.m in Sources */,
 				56782A111A4C05BF00FDB548 /* MyTaxListingViewController.m in Sources */,
 				56CE8E771A49471700AF38B3 /* TAXViewController.m in Sources */,
 				567829F41A4C03DB00FDB548 /* MJPopupBackgroundView.m in Sources */,
+				E71FC2321A4D3731002AA0F3 /* EmailVC.m in Sources */,
 				56782A071A4C059A00FDB548 /* ManualViewController.m in Sources */,
 				56782A031A4C059A00FDB548 /* CheckViewController.m in Sources */,
+				E71FC2341A4D3731002AA0F3 /* IDTypeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +710,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -597,6 +750,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
