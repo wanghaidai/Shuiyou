@@ -14,3 +14,10 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#ifdef DEBUG
+#define DLog(fmt,...) NSLog(fmt, ##__VA_ARGS__);
+#else
+// If debug mode hasn't been enabled, don't do anything when the macro is called
+#define DLog(...)
+#endif
