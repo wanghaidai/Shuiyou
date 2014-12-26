@@ -672,7 +672,6 @@
 
 				E71FC24B1A4D38A5002AA0F3 /* EmailSubscribeVC.m in Sources */,
 				E71FC2481A4D38A5002AA0F3 /* AcoountSecurityVC.m in Sources */,
-
 				84D92D0D1A4D3B7E006DB6E5 /* ViewController.m in Sources */,
 				84D92D071A4D3B64006DB6E5 /* ApplyViewController.m in Sources */,
 				84D92D111A4D3B98006DB6E5 /* datepicker.m in Sources */,
