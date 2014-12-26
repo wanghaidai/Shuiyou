@@ -1,9 +1,9 @@
 //
 //  RealNameVC.m
-//  ProjectTax
+//  PersonalSetting
 //
-//  Created by zhengchen on 14/12/26.
-//  Copyright (c) 2014年 tingtingwang. All rights reserved.
+//  Created by zhengchen on 14/12/25.
+//  Copyright (c) 2014年 zhengchen. All rights reserved.
 //
 
 #import "RealNameVC.h"
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +34,6 @@
 }
 */
 
+- (IBAction)submitRealNameApplication:(id)sender {
+}
 @end
