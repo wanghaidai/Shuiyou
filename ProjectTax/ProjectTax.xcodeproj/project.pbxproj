@@ -45,17 +45,17 @@
 		84D92D071A4D3B64006DB6E5 /* ApplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D061A4D3B64006DB6E5 /* ApplyViewController.m */; };
 		84D92D0D1A4D3B7E006DB6E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D0C1A4D3B7E006DB6E5 /* ViewController.m */; };
 		84D92D111A4D3B98006DB6E5 /* datepicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D92D101A4D3B98006DB6E5 /* datepicker.m */; };
-		84E3D6451A4D68880060948E /* EmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3D6441A4D68880060948E /* EmailVC.m */; };
-		E71FC2331A4D3731002AA0F3 /* IDNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2261A4D3731002AA0F3 /* IDNumberVC.m */; };
-		E71FC2341A4D3731002AA0F3 /* IDTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2291A4D3731002AA0F3 /* IDTypeVC.m */; };
-		E71FC2351A4D3731002AA0F3 /* PersonalInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC22B1A4D3731002AA0F3 /* PersonalInformationVC.m */; };
-		E71FC2361A4D3731002AA0F3 /* PhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC22E1A4D3731002AA0F3 /* PhoneVC.m */; };
-		E71FC2371A4D3731002AA0F3 /* RealNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2311A4D3731002AA0F3 /* RealNameVC.m */; };
 		E71FC2481A4D38A5002AA0F3 /* AcoountSecurityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC23C1A4D38A5002AA0F3 /* AcoountSecurityVC.m */; };
 		E71FC2491A4D38A5002AA0F3 /* CancellationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC23F1A4D38A5002AA0F3 /* CancellationVC.m */; };
 		E71FC24A1A4D38A5002AA0F3 /* PwdModifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2421A4D38A5002AA0F3 /* PwdModifyVC.m */; };
 		E71FC24B1A4D38A5002AA0F3 /* EmailSubscribeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E71FC2451A4D38A5002AA0F3 /* EmailSubscribeVC.m */; };
 		E71FC24C1A4D38A5002AA0F3 /* cfm.png in Resources */ = {isa = PBXBuildFile; fileRef = E71FC2471A4D38A5002AA0F3 /* cfm.png */; };
+		E774BE481A4D72DE00BCEB28 /* IDNumberVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BE3B1A4D72DE00BCEB28 /* IDNumberVC.m */; };
+		E774BE491A4D72DE00BCEB28 /* IDTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BE3E1A4D72DE00BCEB28 /* IDTypeVC.m */; };
+		E774BE4A1A4D72DE00BCEB28 /* PersonalInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BE401A4D72DE00BCEB28 /* PersonalInformationVC.m */; };
+		E774BE4B1A4D72DE00BCEB28 /* PhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BE431A4D72DE00BCEB28 /* PhoneVC.m */; };
+		E774BE4C1A4D72DE00BCEB28 /* RealNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E774BE461A4D72DE00BCEB28 /* RealNameVC.m */; };
+		E7BAB2021A4D78E2003BD69B /* EmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAB2011A4D78E2003BD69B /* EmailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,18 +143,6 @@
 		84D92D0C1A4D3B7E006DB6E5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84D92D0F1A4D3B98006DB6E5 /* datepicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datepicker.h; sourceTree = "<group>"; };
 		84D92D101A4D3B98006DB6E5 /* datepicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datepicker.m; sourceTree = "<group>"; };
-		84E3D6431A4D68880060948E /* EmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmailVC.h; path = ProjectTax/PersonalInformationVC/EmailVC.h; sourceTree = SOURCE_ROOT; };
-		84E3D6441A4D68880060948E /* EmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmailVC.m; path = ProjectTax/PersonalInformationVC/EmailVC.m; sourceTree = SOURCE_ROOT; };
-		E71FC2251A4D3731002AA0F3 /* IDNumberVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDNumberVC.h; sourceTree = "<group>"; };
-		E71FC2261A4D3731002AA0F3 /* IDNumberVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDNumberVC.m; sourceTree = "<group>"; };
-		E71FC2281A4D3731002AA0F3 /* IDTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTypeVC.h; sourceTree = "<group>"; };
-		E71FC2291A4D3731002AA0F3 /* IDTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTypeVC.m; sourceTree = "<group>"; };
-		E71FC22A1A4D3731002AA0F3 /* PersonalInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformationVC.h; sourceTree = "<group>"; };
-		E71FC22B1A4D3731002AA0F3 /* PersonalInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationVC.m; sourceTree = "<group>"; };
-		E71FC22D1A4D3731002AA0F3 /* PhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneVC.h; sourceTree = "<group>"; };
-		E71FC22E1A4D3731002AA0F3 /* PhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneVC.m; sourceTree = "<group>"; };
-		E71FC2301A4D3731002AA0F3 /* RealNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameVC.h; sourceTree = "<group>"; };
-		E71FC2311A4D3731002AA0F3 /* RealNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameVC.m; sourceTree = "<group>"; };
 		E71FC23B1A4D38A5002AA0F3 /* AcoountSecurityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcoountSecurityVC.h; sourceTree = "<group>"; };
 		E71FC23C1A4D38A5002AA0F3 /* AcoountSecurityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcoountSecurityVC.m; sourceTree = "<group>"; };
 		E71FC23E1A4D38A5002AA0F3 /* CancellationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancellationVC.h; sourceTree = "<group>"; };
@@ -164,6 +152,18 @@
 		E71FC2441A4D38A5002AA0F3 /* EmailSubscribeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailSubscribeVC.h; sourceTree = "<group>"; };
 		E71FC2451A4D38A5002AA0F3 /* EmailSubscribeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailSubscribeVC.m; sourceTree = "<group>"; };
 		E71FC2471A4D38A5002AA0F3 /* cfm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cfm.png; sourceTree = "<group>"; };
+		E774BE3A1A4D72DE00BCEB28 /* IDNumberVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDNumberVC.h; sourceTree = "<group>"; };
+		E774BE3B1A4D72DE00BCEB28 /* IDNumberVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDNumberVC.m; sourceTree = "<group>"; };
+		E774BE3D1A4D72DE00BCEB28 /* IDTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTypeVC.h; sourceTree = "<group>"; };
+		E774BE3E1A4D72DE00BCEB28 /* IDTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTypeVC.m; sourceTree = "<group>"; };
+		E774BE3F1A4D72DE00BCEB28 /* PersonalInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformationVC.h; sourceTree = "<group>"; };
+		E774BE401A4D72DE00BCEB28 /* PersonalInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationVC.m; sourceTree = "<group>"; };
+		E774BE421A4D72DE00BCEB28 /* PhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneVC.h; sourceTree = "<group>"; };
+		E774BE431A4D72DE00BCEB28 /* PhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneVC.m; sourceTree = "<group>"; };
+		E774BE451A4D72DE00BCEB28 /* RealNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealNameVC.h; sourceTree = "<group>"; };
+		E774BE461A4D72DE00BCEB28 /* RealNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealNameVC.m; sourceTree = "<group>"; };
+		E7BAB2001A4D78E2003BD69B /* EmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmailVC.h; path = ProjectTax/PersonalInformationVC/EmailVC.h; sourceTree = SOURCE_ROOT; };
+		E7BAB2011A4D78E2003BD69B /* EmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmailVC.m; path = ProjectTax/PersonalInformationVC/EmailVC.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -459,60 +459,15 @@
 		E71FC2201A4D3731002AA0F3 /* PersonalInformationVC */ = {
 			isa = PBXGroup;
 			children = (
-				E71FC2211A4D3731002AA0F3 /* EmailVC */,
-				E71FC2241A4D3731002AA0F3 /* IDNumberVC */,
-				E71FC2271A4D3731002AA0F3 /* IDTypeVC */,
-				E71FC22A1A4D3731002AA0F3 /* PersonalInformationVC.h */,
-				E71FC22B1A4D3731002AA0F3 /* PersonalInformationVC.m */,
-				E71FC22C1A4D3731002AA0F3 /* PhoneVC */,
-				E71FC22F1A4D3731002AA0F3 /* RealNameVC */,
+				E7BAB1F91A4D7805003BD69B /* EmailVC */,
+				E774BE391A4D72DE00BCEB28 /* IDNumberVC */,
+				E774BE3C1A4D72DE00BCEB28 /* IDTypeVC */,
+				E774BE3F1A4D72DE00BCEB28 /* PersonalInformationVC.h */,
+				E774BE401A4D72DE00BCEB28 /* PersonalInformationVC.m */,
+				E774BE411A4D72DE00BCEB28 /* PhoneVC */,
+				E774BE441A4D72DE00BCEB28 /* RealNameVC */,
 			);
 			path = PersonalInformationVC;
-			sourceTree = "<group>";
-		};
-		E71FC2211A4D3731002AA0F3 /* EmailVC */ = {
-			isa = PBXGroup;
-			children = (
-				84E3D6431A4D68880060948E /* EmailVC.h */,
-				84E3D6441A4D68880060948E /* EmailVC.m */,
-			);
-			path = EmailVC;
-			sourceTree = "<group>";
-		};
-		E71FC2241A4D3731002AA0F3 /* IDNumberVC */ = {
-			isa = PBXGroup;
-			children = (
-				E71FC2251A4D3731002AA0F3 /* IDNumberVC.h */,
-				E71FC2261A4D3731002AA0F3 /* IDNumberVC.m */,
-			);
-			path = IDNumberVC;
-			sourceTree = "<group>";
-		};
-		E71FC2271A4D3731002AA0F3 /* IDTypeVC */ = {
-			isa = PBXGroup;
-			children = (
-				E71FC2281A4D3731002AA0F3 /* IDTypeVC.h */,
-				E71FC2291A4D3731002AA0F3 /* IDTypeVC.m */,
-			);
-			path = IDTypeVC;
-			sourceTree = "<group>";
-		};
-		E71FC22C1A4D3731002AA0F3 /* PhoneVC */ = {
-			isa = PBXGroup;
-			children = (
-				E71FC22D1A4D3731002AA0F3 /* PhoneVC.h */,
-				E71FC22E1A4D3731002AA0F3 /* PhoneVC.m */,
-			);
-			path = PhoneVC;
-			sourceTree = "<group>";
-		};
-		E71FC22F1A4D3731002AA0F3 /* RealNameVC */ = {
-			isa = PBXGroup;
-			children = (
-				E71FC2301A4D3731002AA0F3 /* RealNameVC.h */,
-				E71FC2311A4D3731002AA0F3 /* RealNameVC.m */,
-			);
-			path = RealNameVC;
 			sourceTree = "<group>";
 		};
 		E71FC23A1A4D38A5002AA0F3 /* AccountSecurityVC */ = {
@@ -559,6 +514,51 @@
 				E71FC2471A4D38A5002AA0F3 /* cfm.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		E774BE391A4D72DE00BCEB28 /* IDNumberVC */ = {
+			isa = PBXGroup;
+			children = (
+				E774BE3A1A4D72DE00BCEB28 /* IDNumberVC.h */,
+				E774BE3B1A4D72DE00BCEB28 /* IDNumberVC.m */,
+			);
+			path = IDNumberVC;
+			sourceTree = "<group>";
+		};
+		E774BE3C1A4D72DE00BCEB28 /* IDTypeVC */ = {
+			isa = PBXGroup;
+			children = (
+				E774BE3D1A4D72DE00BCEB28 /* IDTypeVC.h */,
+				E774BE3E1A4D72DE00BCEB28 /* IDTypeVC.m */,
+			);
+			path = IDTypeVC;
+			sourceTree = "<group>";
+		};
+		E774BE411A4D72DE00BCEB28 /* PhoneVC */ = {
+			isa = PBXGroup;
+			children = (
+				E774BE421A4D72DE00BCEB28 /* PhoneVC.h */,
+				E774BE431A4D72DE00BCEB28 /* PhoneVC.m */,
+			);
+			path = PhoneVC;
+			sourceTree = "<group>";
+		};
+		E774BE441A4D72DE00BCEB28 /* RealNameVC */ = {
+			isa = PBXGroup;
+			children = (
+				E774BE451A4D72DE00BCEB28 /* RealNameVC.h */,
+				E774BE461A4D72DE00BCEB28 /* RealNameVC.m */,
+			);
+			path = RealNameVC;
+			sourceTree = "<group>";
+		};
+		E7BAB1F91A4D7805003BD69B /* EmailVC */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAB2001A4D78E2003BD69B /* EmailVC.h */,
+				E7BAB2011A4D78E2003BD69B /* EmailVC.m */,
+			);
+			path = EmailVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -672,25 +672,25 @@
 				84D92D0D1A4D3B7E006DB6E5 /* ViewController.m in Sources */,
 				84D92D071A4D3B64006DB6E5 /* ApplyViewController.m in Sources */,
 				84D92D111A4D3B98006DB6E5 /* datepicker.m in Sources */,
+				E774BE4B1A4D72DE00BCEB28 /* PhoneVC.m in Sources */,
 				56782A051A4C059A00FDB548 /* ListingViewController.m in Sources */,
-				E71FC2331A4D3731002AA0F3 /* IDNumberVC.m in Sources */,
+				E774BE481A4D72DE00BCEB28 /* IDNumberVC.m in Sources */,
 				567829F51A4C03DB00FDB548 /* UIViewController+MJPopupViewController.m in Sources */,
-				E71FC2371A4D3731002AA0F3 /* RealNameVC.m in Sources */,
-				E71FC2351A4D3731002AA0F3 /* PersonalInformationVC.m in Sources */,
 				56782A041A4C059A00FDB548 /* CodeViewController.m in Sources */,
 				E71FC2491A4D38A5002AA0F3 /* CancellationVC.m in Sources */,
 				E71FC24A1A4D38A5002AA0F3 /* PwdModifyVC.m in Sources */,
 				56CE8E6E1A49471700AF38B3 /* TAXAppDelegate.m in Sources */,
+				E774BE4C1A4D72DE00BCEB28 /* RealNameVC.m in Sources */,
 				56782A0F1A4C05BF00FDB548 /* ForecastCell.m in Sources */,
-				E71FC2361A4D3731002AA0F3 /* PhoneVC.m in Sources */,
+				E774BE4A1A4D72DE00BCEB28 /* PersonalInformationVC.m in Sources */,
 				56CE8E6A1A49471700AF38B3 /* main.m in Sources */,
 				56782A111A4C05BF00FDB548 /* MyTaxListingViewController.m in Sources */,
 				56CE8E771A49471700AF38B3 /* TAXViewController.m in Sources */,
 				567829F41A4C03DB00FDB548 /* MJPopupBackgroundView.m in Sources */,
 				56782A071A4C059A00FDB548 /* ManualViewController.m in Sources */,
-				84E3D6451A4D68880060948E /* EmailVC.m in Sources */,
+				E7BAB2021A4D78E2003BD69B /* EmailVC.m in Sources */,
 				56782A031A4C059A00FDB548 /* CheckViewController.m in Sources */,
-				E71FC2341A4D3731002AA0F3 /* IDTypeVC.m in Sources */,
+				E774BE491A4D72DE00BCEB28 /* IDTypeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
